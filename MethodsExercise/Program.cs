@@ -90,7 +90,7 @@ namespace MethodsExercise
                         else
                         {
                             Console.WriteLine($"well that makes sense considering you said {puns} before. How about a story instead");
-                            Console.WriteLine($" {name} dropped his glasses once \n in a pot of {color} dye,\n and when {name} put them on again\n {name} saw a {color} sky.\n {color} fires were rising up\n from a {color} hill,\n Men were gringing {color} cider\n at a {color} mill\n {color} kids were playing\n with a {color} doll\n little {color} dragon flies\n were crawling up the wall\n and at the supper-table\n {name} got crazy as a loon\n from eating {color} apple dumplings\n with a {color} spoon.");
+                            Console.WriteLine($"{name} dropped his glasses once \n in a pot of {color} dye,\n and when {name} put them on again\n {name} saw a {color} sky.\n {color} fires were rising up\n from a {color} hill,\n Men were gringing {color} cider\n at a {color} mill\n {color} kids were playing\n with a {color} doll\n little {color} dragon flies\n were crawling up the wall\n and at the supper-table\n {name} got crazy as a loon\n from eating {color} apple dumplings\n with a {color} spoon.");
                         }
                         
                     }
