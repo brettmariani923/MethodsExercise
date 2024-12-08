@@ -4,12 +4,12 @@ namespace MethodsExercise
 {
     public class Program
     {
-        static double multiply(int a, int b)
+        static double Multiply(int a, int b)
         {
             return a * b;
         }
         
-        static double divide(int a, int b)
+        static double Divide(int a, int b)
         {
             return a / b;
         }
@@ -25,7 +25,7 @@ namespace MethodsExercise
             return sum;
         }
 
-        static int subtract(int a, int b)
+        static int Subtract(int a, int b)
         {
             return a - b;
         }
@@ -52,13 +52,13 @@ namespace MethodsExercise
             var favNumber = int.Parse(Console.ReadLine());
             
             
-            double luckyNumber = divide(yearBorn, favNumber);
+            double luckyNumber = Divide(yearBorn, favNumber);
            
-            double moneyTime = multiply(yearBorn, favNumber);
+            double moneyTime = Multiply(yearBorn, favNumber);
            
             int loveYear = Sum(777, favNumber, yearBorn);
-           
-            int deathYear = subtract(favNumber, 2);
+            
+            int deathYear = Subtract(favNumber, 2);
            
 
             
